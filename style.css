@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(245, 185, 75), rgb(233, 157, 71));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 95%;
+    height: 90%;
+    background-color: rgb(236, 227, 211);
+    border-radius: 10px;
+}
+
+.navbar {
+    height: 16%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.image {
+    height: 80%;
+    width: 20%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 80%;
+    height: 80%;
+}
+
+.inputArea {
+    height: 80%;
+    width: 40%; 
+    border: 2px solid black;
+}
+
+.inputArea input {
+    width: 70%;
+    height: 75%;
+}
+
+.addrecipe-bookmarks {
+    height: 80%;
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addrecipe {
+    height: 75%;
+    width: 45%;
+    border: 2px solid black;
+}
+
+.bookmarks {
+    height: 75%;
+    width: 45%;
+    border: 2px solid black;
+}
