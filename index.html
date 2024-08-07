@@ -1,69 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forkify</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-<div class="container">
-    <div class="navbar">
-        <div class="image"><img src="https://forkify-demo.netlify.app/img/logo.png" alt=""></div>
-        <div class="inputArea">
-            <input type="text" placeholder="Search over 10,000 recipe">
-            <button><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+    <div class="container">
+        <div class="navbar">
+            <div class="image"><img src="https://forkify-demo.netlify.app/img/logo.png" alt=""></div>
+            <div class="inputArea">
+                <input type="text" placeholder="Search over 10,000 recipe" id="userInput">
+                <button><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+            </div>
+            <div class="addrecipe-bookmarks">
+                <div class="addrecipe"><i class="fa-regular fa-pen-to-square"></i> ADD RECIPE</div>
+                <div class="bookmarks"><i class="fa-regular fa-bookmark"></i> BOOKMARKS</div>
+            </div>
         </div>
-        <div class="addrecipe-bookmarks">
-            <div class="addrecipe"><i class="fa-regular fa-pen-to-square"></i> ADD RECIPE</div>
-            <div class="bookmarks"><i class="fa-regular fa-bookmark"></i> BOOKMARKS</div>
-        </div>
-    </div>
+        <!-- \body area -->
 
-
-    <!-- \body area -->
-
-    <div class="body-area">
-        <div class="item-bar">
-            <div class="item">
-                <div class="item-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEggkPpkaLcRbRmE-i2ennVSnPhoebaQtq3A&s" alt=""></div>
-                <div id="inner-text">
-                    <h4>HOW TO GRILL PIZZA</h4>
-                    <P>CLOSET COOKIES</P>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="item-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEggkPpkaLcRbRmE-i2ennVSnPhoebaQtq3A&s" alt=""></div>
-                <div id="inner-text">
-                    <h4>HOW TO GRILL PIZZA</h4>
-                    <P>CLOSET COOKIES</P>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="item-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEggkPpkaLcRbRmE-i2ennVSnPhoebaQtq3A&s" alt=""></div>
-                <div id="inner-text">
-                    <h4>HOW TO GRILL PIZZA</h4>
-                    <P>CLOSET COOKIES</P>
-                </div>
-            </div>
-
-                <div class="item">
-                    <div class="item-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEggkPpkaLcRbRmE-i2ennVSnPhoebaQtq3A&s" alt=""></div>
-                    <div id="inner-text">
+        <div class="body-area">
+            <div class="item-bar">
+                <!-- <div class="item">
+                    <div class="item-image"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEggkPpkaLcRbRmE-i2ennVSnPhoebaQtq3A&s"
+                            alt=""></div>
+                    <div class="inner-text">
                         <h4>HOW TO GRILL PIZZA</h4>
                         <P>CLOSET COOKIES</P>
                     </div>
+                </div> -->
+            </div>
+
+            
+            <div class="display-bar">
+                <div class="display">
+                    <div class="emoji"><i class="fa-regular fa-face-smile"></i></div>
+                    <div class="display-text">
+                        <p>Start by searching for a recipe or <br>an ingredient. Have fun!</p>
+                    </div>
                 </div>
-        </div>
-
-        <div class="display-bar">
-
+            </div>
         </div>
     </div>
-</div>
+    <script src="app.js"></script>
 
 </body>
+
 </html>
