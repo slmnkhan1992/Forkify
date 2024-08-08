@@ -139,7 +139,7 @@ body {
 }
 
 .item-bar {
-    width: 40%;
+    width: 35%;
     height: 100%;
     background-color: white;
     display: flex;
@@ -148,10 +148,17 @@ body {
 }
 
 .item {
-    width: 80%;
+    width: 100%;
     height: 20%;
     display: flex;
-    margin-top: 10px;
+    margin-top: 0px;
+    padding: 5px 10px;
+}
+
+.item:hover {
+    background-color: #f9f5f3;
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 
 .item-image {
@@ -181,29 +188,104 @@ body {
 }
 
 .display-bar {
-    width: 60%;
+    width: 65%;
     height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.display-image {
+    width: 100%;
+    height: 320px;
+}
+
+.display-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.display-first-area {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.display-first-area .time i{
+    color: #f48982;
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+.minutes {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.serving i {
+    color: #f48982;
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+.numberServe {
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.plusMinus {
+    color: #f48982;
+    font-size: 1.3rem;
+    margin-left: -100px;
+}
+
+.bookmarksArea {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(45deg, #fbd89f, #f48982);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    color: white;
+    font-size: 1.6rem;
 }
 
-.display {
+.recipeIngredients {
+    height: auto;
+    width: 100%;
+    background-color: white;
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 10px 0px;
 }
 
-.emoji {
+.recipeIngredients h3 {
     color: #f48982;
-    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
 }
 
-.display-text {
-    font-size: 1.3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(108, 83, 83);
-    font-weight: 400;
+.Ingredients {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
 }
+
+.Ingredients i {
+    color: #f48982;
+    font-size: 1.3rem;
+    margin-right: -190px;
+
+}
+
 
 
 
