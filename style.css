@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 95%;
+    width:95%;
     height: 95%;
     background-color: #f9f5f3;
     border-radius: 10px;
@@ -42,7 +42,7 @@ body {
 
 .image img {
     width: 80%;
-    height: 80%;
+    height: 70%;
 }
 
 .inputArea {
@@ -56,7 +56,7 @@ body {
 
 .inputArea input {
     width: 75%;
-    height: 70%;
+    height: 60%;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 35px;
     padding-left: 10px;
@@ -67,7 +67,7 @@ body {
 
 .inputArea button {
     width: 25%;
-    height: 70%;
+    height: 60%;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     border-top-left-radius: 35px;
@@ -152,7 +152,7 @@ body {
     height: 20%;
     display: flex;
     margin-top: 0px;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 .item:hover {
@@ -214,7 +214,7 @@ body {
 .display-first-area .time i{
     color: #f48982;
     font-size: 1.3rem;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .minutes {
@@ -226,7 +226,7 @@ body {
 .serving i {
     color: #f48982;
     font-size: 1.3rem;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .numberServe {
@@ -238,7 +238,7 @@ body {
 .plusMinus {
     color: #f48982;
     font-size: 1.3rem;
-    margin-left: -100px;
+    margin-left: -40px;
 }
 
 .bookmarksArea {
@@ -254,14 +254,15 @@ body {
 }
 
 .recipeIngredients {
-    height: auto;
+    height: 500px;
     width: 100%;
-    background-color: white;
+    background-color:#e8dfda;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 35px;
-    padding: 10px 0px;
+    padding: 30px 0px;
 }
 
 .recipeIngredients h3 {
@@ -282,7 +283,7 @@ body {
 .Ingredients i {
     color: #f48982;
     font-size: 1.3rem;
-    margin-right: -190px;
+    margin-right: -80px
 
 }
 

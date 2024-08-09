@@ -95,7 +95,7 @@ fetch('https://forkify-api.herokuapp.com/api/v2/recipes?search=pizza')
             
             const displayFirstArea = document.createElement('div')
             displayFirstArea.classList.add('display-first-area')
-            displayFirstArea.innerHTML = `<div class="time"><i class="fa-regular fa-clock"></i><span class="minutes">60< span> MINUTES</div>
+            displayFirstArea.innerHTML = `<div class="time"><i class="fa-regular fa-clock"></i><spanclass="minutes">60<span> MINUTES</div>
             <div class="serving"><i class="fa-solid fa-people-group"></i> <span class="numberServe">4</span> SERVING</div>
             <div class="plusMinus"><i class="fa-solid fa-circle-plus"></i> <i class="fa-solid fa-circle-minus"></i></div>
             <div class="bookmarksArea"><i class="fa-regular fa-bookmark"></i></div>
@@ -107,11 +107,33 @@ fetch('https://forkify-api.herokuapp.com/api/v2/recipes?search=pizza')
             recipeIngredients.innerHTML = `<h3>Recipe ingredients</h3>
                     <div class="Ingredients">
                     <i class="fa-solid fa-check"></i><p>1 cup warm water</p>
-                    <i class="fa-solid fa-check"></i><p>1 cup warm water</p>
-                    </div>` 
+                    <i class="fa-solid fa-check"></i><p>1 medium head cauliflower cut into florets</p>
+                    </div>
+
+                    <div class="Ingredients">
+                    <i class="fa-solid fa-check"></i><p>1 egg</p>
+                    <i class="fa-solid fa-check"></i><p>1/2 cup mozzarella shredded</p>
+                    </div>
+
+                    <div class="Ingredients">
+                    <i class="fa-solid fa-check"></i><p>Salt and pepper to taste</p>
+                    <i class="fa-solid fa-check"></i><p>1 cup chicken cooked and shredded</p>
+                    </div>
+
+                    <div class="Ingredients">
+                    <i class="fa-solid fa-check"></i><p>1/2 cup barbecue sauce</p>
+                    <i class="fa-solid fa-check"></i><p>3/4 cup mozzarella shredded</p>
+                    </div>
+
+                     <div class="Ingredients">
+                    <i class="fa-solid fa-check"></i><p>Red onion to taste thinly sliced</p>
+                    <i class="fa-solid fa-check"></i><p>Fresh cilantro to taste</p>
+                    </div>                 
+                 </div>
+
+            </div>` 
                     
-            displayBar.appendChild(recipeIngredients)  
-                                  
+            displayBar.appendChild(recipeIngredients)                  
           })   
         });
       }      
